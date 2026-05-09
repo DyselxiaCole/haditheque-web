@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Hadith/Quran deep-link URLs (e.g. /SB1, /CO2-255, /SM294) are also valid
+  routes, but we don't enumerate them here — there are tens of thousands of
+  individual readables. The home page is the canonical entry point; crawlers
+  reach individual hadiths from internal navigation and from external links.
+  Replace https://haditheque.example.com once a real origin is known.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://haditheque.example.com/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://haditheque.example.com/?lang=fr" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://haditheque.example.com/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://haditheque.example.com/?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://haditheque.example.com/" />
+  </url>
+</urlset>

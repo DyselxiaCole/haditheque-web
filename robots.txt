@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Replace with the deployed origin once known.
+Sitemap: https://haditheque.example.com/sitemap.xml

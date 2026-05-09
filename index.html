@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--
+      ====================================================================
+      SEO baseline. Replace https://haditheque.example.com with the real
+      production origin once known (also in robots.txt and sitemap.xml).
+      Per-route updates (title, description, canonical, og:url) are applied
+      by src/seo/PageMetadata.ts as the user navigates between readables.
+      ====================================================================
+    -->
+    <title>Haditheque — Coran et hadiths en français, anglais et arabe</title>
+    <meta name="description" content="Une bibliothèque regroupant le Coran et les principaux recueils de hadiths en français, anglais et arabe." />
+    <meta name="theme-color" content="#278283" />
+    <meta name="application-name" content="Haditheque" />
+    <meta name="robots" content="index,follow" />
+    <link rel="canonical" href="https://haditheque.example.com/" />
+
+    <!-- Open Graph (Facebook, Slack, Discord, WhatsApp, LinkedIn…) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Haditheque" />
+    <meta property="og:title" content="Haditheque — Coran et hadiths" />
+    <meta property="og:description" content="Une bibliothèque regroupant le Coran et les principaux recueils de hadiths en français, anglais et arabe." />
+    <meta property="og:url" content="https://haditheque.example.com/" />
+    <meta property="og:image" content="https://haditheque.example.com/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta property="og:locale:alternate" content="ar_AR" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Haditheque — Coran et hadiths" />
+    <meta name="twitter:description" content="Une bibliothèque regroupant le Coran et les principaux recueils de hadiths en français, anglais et arabe." />
+    <meta name="twitter:image" content="https://haditheque.example.com/og-image.png" />
+
+    <!-- Icons & manifest -->
+    <link rel="icon" type="image/x-icon" href="/haditheque-com/Haditheque.ico" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/haditheque-com/icon-192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/haditheque-com/icon-512.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/haditheque-com/apple-touch-icon.png" />
+    <link rel="manifest" href="/haditheque-com/site.webmanifest" />
+
+    <!-- Structured data: WebSite with sitelinks search box -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Haditheque",
+      "url": "https://haditheque.example.com/",
+      "inLanguage": ["fr", "en", "ar"],
+      "description": "Une bibliothèque regroupant le Coran et les principaux recueils de hadiths en français, anglais et arabe.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://haditheque.example.com/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+    <!-- Preload homepage logo + icons shown on first paint -->
+    <link rel="preload" as="image" href="/haditheque-com/Haditheque.ico" />
+    <link rel="preload" as="image" href="/haditheque-com/images/Icon/book.png" />
+    <link rel="preload" as="image" href="/haditheque-com/images/Icon/search.png" />
+    <link rel="preload" as="image" href="/haditheque-com/images/Icon/star.png" />
+    <link rel="preload" as="image" href="/haditheque-com/images/Icon/bookmark.png" />
+    <link rel="preload" as="image" href="/haditheque-com/images/Icon/globe.png" />
+    <link rel="preload" as="image" href="/haditheque-com/images/Icon/share.png" />
+    <!-- Preload commonly-shown popup/menu icons -->
+    <link rel="preload" as="image" href="/haditheque-com/images/Icon/share-text.png" />
+    <link rel="preload" as="image" href="/haditheque-com/images/Icon/share-image.png" />
+    <link rel="preload" as="image" href="/haditheque-com/images/Icon/sources.png" />
+    <link rel="preload" as="image" href="/haditheque-com/images/Language/fr.png" />
+    <link rel="preload" as="image" href="/haditheque-com/images/Language/en.png" />
+    <link rel="preload" as="image" href="/haditheque-com/images/Language/ar.png" />
+    <script type="module" crossorigin src="/haditheque-com/assets/index-BXxt7TDE.js"></script>
+    <link rel="stylesheet" crossorigin href="/haditheque-com/assets/index-BaY7c7BT.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
